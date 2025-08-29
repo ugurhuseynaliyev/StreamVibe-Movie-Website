@@ -1,0 +1,93 @@
+.homeBackground {
+  background-image: url("../assets/images/Sub_Container.png");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+
+.homeContent {
+  width: 50%;
+  padding: 2rem;
+}
+
+.contentTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contentDescription {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+.homeButton {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background: #e50000;
+  border: none;
+  padding: 1.4rem 3rem;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.homeButton:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1280px) {
+  .contentTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .contentDescription {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+
+  .homeButton {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background: #e50000;
+    border: none;
+    padding: 1.2rem 2.5rem;
+    gap: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeContent {
+    width: 65%;
+  }
+}
+
+@media (max-width: 400px) {
+  .homeContent {
+    width: 90%;
+  }
+
+  .homeContent .contentTitle {
+    font-size: 20px;
+  }
+
+  .homeContent .contentDescription {
+    font-size: 10px;
+  }
+
+  .homeButton {
+    font-size: 10px;
+  }
+}

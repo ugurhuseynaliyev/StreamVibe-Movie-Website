@@ -1,0 +1,34 @@
+[
+  {
+    "movies": [
+      {
+        "exploreSection": [
+          {
+            "img": "../src/assets/images/actionMovie.png",
+            "type": "Action"
+          },
+
+          {
+            "img": "../src/assets/images/adventureMovie.png",
+            "type": "Adventure"
+          },
+
+          {
+            "img": "../src/assets/images/comedyMovie.png",
+            "type": "Comedy"
+          },
+
+          {
+            "img": "../src/assets/images/dramaMovie.png",
+            "type": "Drama"
+          },
+
+          {
+            "img": "../src/assets/images/horrorMovie.png",
+            "type": "Horror"
+          }
+        ]
+      }
+    ]
+  }
+]

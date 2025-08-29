@@ -1,0 +1,93 @@
+.exploreSection {
+  margin: 3rem 4%;
+}
+
+.exploreTitle {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.exploreDescription {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.carousel {
+  margin: 2rem 0;
+}
+
+.exploreSectionCard {
+  width: 32rem;
+  background: #1a1a1a;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+.exploreCardContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exploreCardContent .typeOfMovie {
+  font-size: 20px;
+}
+
+.exploreSectionCard button {
+  background: none;
+  border: none;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  .exploreTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .exploreDescription {
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+  .exploreSectionCard .typeOfMovie {
+    font-size: 18px;
+  }
+
+  .exploreSectionCard {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .exploreTitle {
+    font-size: 2rem;
+  }
+
+  .exploreDescription {
+    font-size: 1rem;
+  }
+
+  .exploreSectionCard {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .exploreSectionCard {
+    width: 90%;
+  }
+
+  .exploreSectionCard .typeOfMovie {
+    font-size: 15px;
+  }
+
+  .exploreSectionCard button {
+    font-size: 30px;
+  }
+}

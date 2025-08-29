@@ -1,0 +1,109 @@
+.provideTitle {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.provideDescription {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.provideSectionCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin: 3rem 0;
+  cursor: pointer;
+}
+
+.provideSectionCard {
+  background: rgba(0, 0, 0, 7.1);
+  background: linear-gradient(
+    30deg,
+    rgba(0, 0, 0, 0.75) 70%,
+    rgba(229, 0, 0, 0.2) 100%
+  );
+  padding: 5rem;
+  border-radius: 12px;
+  border: 1px solid #262626;
+}
+
+.provideSectionCard .image-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.provideSectionCard .image-title h2 {
+  font-size: 20px;
+}
+
+.provideSectionCard .image-title img {
+  padding: 1rem;
+  background: #141414;
+  border: 1px solid #1f1f1f;
+  border-radius: 12px;
+}
+
+.provideCardDescription {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 2rem;
+  color: #999999;
+}
+
+@media (max-width: 1280px) {
+  .provideTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .provideDescription {
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+
+  .provideSectionCard .image-title h2 {
+    font-size: 16px;
+  }
+  .provideCardDescription {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 2rem;
+    color: #999999;
+  }
+
+  .provideSectionCard .image-title img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.8rem;
+    background: #141414;
+    border: 1px solid #1f1f1f;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 1051px) {
+  .provideSectionCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .provideSectionCards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+    margin: 3rem 0;
+    cursor: pointer;
+  }
+
+  .provideTitle {
+    font-size: 2rem;
+  }
+
+  .provideDescription {
+    font-size: 1rem;
+  }
+}
