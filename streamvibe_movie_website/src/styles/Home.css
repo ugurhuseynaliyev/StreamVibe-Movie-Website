@@ -36,7 +36,7 @@
   border-radius: 8px;
   cursor: pointer;
   transition: 0.2s;
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: white !important;
 }
 
 .homeButton:hover {
