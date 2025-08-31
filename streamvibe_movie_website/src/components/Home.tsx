@@ -13,7 +13,7 @@ const Home = () => {
         <div className="homeContent">
           <h1 className="contentTitle">The Best Streaming Experience</h1>
           <p className="contentDescription">
-            StreamVibe is the best streaming experience for watching your
+            is the best streaming experience for watching your
             favorite movies and shows on demand, anytime, anywhere. With
             StreamVibe, you can enjoy a wide variety of content, including the
             latest blockbusters, classic movies, popular TV shows, and more. You
