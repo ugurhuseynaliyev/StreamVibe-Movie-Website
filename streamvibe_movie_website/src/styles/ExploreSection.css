@@ -25,6 +25,10 @@
   border-radius: 12px;
 }
 
+.exploreCardBtn {
+  color: white;
+}
+
 .exploreCardContent {
   display: flex;
   justify-content: space-between;

@@ -39,7 +39,7 @@ li {
   transition: 0.2s;
 }
 
-.navbar li.active {
+.navbar .active {
   background: #1a1a1a;
   color: #bfbfbf;
   padding: 10px 20px;
@@ -49,6 +49,8 @@ li {
 .navbar a:hover {
   background: #1a1a1a;
   color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
 }
 
 .navButtons {
@@ -59,6 +61,7 @@ li {
 
 .navButtons button {
   background: none;
+  color: white;
   border: none;
   cursor: pointer;
   font-size: 25px;

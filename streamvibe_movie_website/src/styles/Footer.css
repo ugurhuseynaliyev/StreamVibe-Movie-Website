@@ -116,9 +116,9 @@ footer .row .icon {
 @media (max-width: 450px) {
   .footerTop {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: auto auto;
     text-align: center;
-    gap: 2rem;
+    justify-content: space-between;
   }
 
   .footerBottom {

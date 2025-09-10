@@ -36,7 +36,11 @@
   border-radius: 8px;
   cursor: pointer;
   transition: 0.2s;
-  -webkit-text-fill-color: white !important;
+  color: white;
+}
+
+.btnIcon {
+  color: white;
 }
 
 .homeButton:hover {
@@ -71,13 +75,13 @@
 
 @media (max-width: 768px) {
   .homeContent {
-    width: 65%;
+    width: 90%;
   }
 }
 
 @media (max-width: 400px) {
   .homeContent {
-    width: 90%;
+    width: 100%;
   }
 
   .homeContent .contentTitle {

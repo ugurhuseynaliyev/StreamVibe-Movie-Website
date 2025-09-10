@@ -14,7 +14,7 @@ const ExploreSectionCard = ({ image, type }: Props) => {
       <div className="exploreCardContent">
         <p className="typeOfMovie">{type}</p>
         <button>
-          <IoIosArrowRoundForward />
+          <IoIosArrowRoundForward className="exploreCardBtn" />
         </button>
       </div>
     </div>

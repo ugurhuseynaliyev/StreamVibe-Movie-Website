@@ -3,22 +3,18 @@ import Home from "./components/Home";
 import "./App.css";
 import "./index.css";
 import Movies_Shows from "./components/Movies_Shows";
-import { useState } from "react";
 import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
 
-const pages = {
-  home: <Home />,
-  movies_shows: <Movies_Shows />,
-};
-
-type PageKey = keyof typeof pages;
 
 const App = () => {
-  const [selectedPage, setSelectedPage] = useState<PageKey>("home");
   return (
     <div className="App">
-      <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-      <main>{pages[selectedPage]}</main>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/movies_shows" element={<Movies_Shows />}/>
+      </Routes>
       <Footer />
     </div>
   );

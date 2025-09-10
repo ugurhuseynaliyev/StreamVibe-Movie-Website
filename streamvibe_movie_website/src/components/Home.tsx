@@ -21,7 +21,7 @@ const Home = () => {
             content you want to watch.
           </p>
           <button className="homeButton">
-            <FaPlay /> Start Watching Now
+            <FaPlay className="btnIcon" /> Start Watching Now
           </button>
         </div>
       </div>

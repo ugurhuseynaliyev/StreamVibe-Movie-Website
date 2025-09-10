@@ -2,19 +2,12 @@ import Logo from "../assets/images/Logo.png";
 import { IoSearchOutline } from "react-icons/io5";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import "../styles/Navbar.css";
-import type React from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
-type NavbarProps = {
-  setSelectedPage: React.Dispatch<
-    React.SetStateAction<"home" | "movies_shows">
-  >;
-  selectedPage: "home" | "movies_shows";
-};
-
-const Navbar = ({ selectedPage, setSelectedPage }: NavbarProps) => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="header">
@@ -30,24 +23,30 @@ const Navbar = ({ selectedPage, setSelectedPage }: NavbarProps) => {
         <div className="closeMenu" onClick={() => setIsOpen(false)}>
           <IoClose />
         </div>
-        <li
-          onClick={() => setSelectedPage("home")}
-          className={selectedPage === "home" ? "active" : ""}
+        <NavLink
+          className={({ isActive }) => (isActive ? "active" : "")}
+          to={"/"}
         >
-          <a>Home</a>
-        </li>
-        <li
-          onClick={() => setSelectedPage("movies_shows")}
-          className={selectedPage === "movies_shows" ? "active" : ""}
+          Home
+        </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? "active" : "")}
+          to={"/movies_shows"}
         >
-          <a>Movies & Shows</a>
-        </li>
-        <li>
-          <a>Support</a>
-        </li>
-        <li>
-          <a>Subscriptions</a>
-        </li>
+          Movies & Shows
+        </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? "active" : "")}
+          to={"/support"}
+        >
+          Support
+        </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? "active" : "")}
+          to={"/subscriptions"}
+        >
+          Subscriptions
+        </NavLink>
       </nav>
       <div className="navButtons">
         <button>

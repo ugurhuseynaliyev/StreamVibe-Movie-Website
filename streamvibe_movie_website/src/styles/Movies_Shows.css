@@ -1,0 +1,11 @@
+.movies_shows_hero {
+  background: url("../assets/images/Movies_Shows_hero.png");
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  margin-top: var(--header-height, 0);
+}
