@@ -27,6 +27,28 @@
             "img": "../src/assets/images/horrorMovie.png",
             "type": "Horror"
           }
+        ],
+
+        "popularTop10InGenres": [
+          {
+            "img": "../src/assets/images/popular1.png",
+            "type": "Action"
+          },
+
+          {
+            "img": "../src/assets/images/popular2.png",
+            "type": "Adventure"
+          },
+
+          {
+            "img": "../src/assets/images/popular3.png",
+            "type": "Comedy"
+          },
+
+          {
+            "img": "../src/assets/images/popular4.png",
+            "type": "Drama"
+          }
         ]
       }
     ]

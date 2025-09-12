@@ -1,0 +1,267 @@
+.support {
+  margin-top: 150px;
+}
+
+.supportWelcome {
+  display: flex;
+  gap: 5rem;
+}
+
+.supportWelcome .left-side {
+  flex: 1;
+}
+
+.supportWelcome .left-side h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.supportWelcome .left-side p {
+  font-size: 15px;
+  color: #999999;
+  margin-bottom: 2rem;
+}
+
+.supportWelcome .left-side img {
+  width: 100%;
+}
+
+.supportWelcome .right-side {
+  flex: 2;
+  background: #0f0f0f;
+  border-radius: 12px;
+  border: 1px solid #262626;
+  padding: 30px;
+}
+
+.supportWelcome .right-side .row {
+  display: flex;
+  gap: 5rem;
+}
+
+.firstname,
+.lastname,
+.email,
+.phoneNumber {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 2rem;
+}
+
+.numberInput {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.ReactFlagsSelect-module_selectOptions__3LNBJ {
+  background: #141414 !important;
+  border: none !important;
+}
+
+.ReactFlagsSelect-module_selectOptions__3LNBJ li {
+  background: #141414 !important;
+}
+
+.ReactFlagsSelect-module_selectOptions__3LNBJ li:hover {
+  background: #262626 !important;
+}
+
+.numberInput input {
+  width: 100%;
+}
+
+.supportWelcome .right-side label {
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.supportWelcome .right-side input {
+  padding: 1.5rem;
+  background: #141414;
+  border: 1px solid #262626;
+  border-radius: 8px;
+}
+
+.supportWelcome .right-side input:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  padding: 2rem;
+  background: #141414;
+  border-radius: 8px;
+  border: 1px solid #262626;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.agreeAndConfirm {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 16px;
+}
+
+.checkbox p {
+  color: #999999;
+}
+
+.checkbox input {
+  scale: 1.5;
+}
+
+.sendButton button {
+  background: #e50000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sendButton button:hover {
+  opacity: 0.8;
+}
+
+.faqSectionSupport {
+  width: 100%;
+  margin: 5rem auto;
+}
+
+@media (max-width: 1100px) {
+  .supportWelcome {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .supportWelcome .right-side .row {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .supportWelcome .left-side h1 {
+    font-size: 30px;
+  }
+
+  .supportWelcome .left-side p {
+    font-size: 10px;
+  }
+
+  .supportWelcome .right-side .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 630px) {
+
+  .supportWelcome .left-side h1 {
+    font-size: 25px;
+  }
+
+  .supportWelcome .left-side p {
+    font-size: 12px;
+  }
+
+  .checkbox {
+    font-size: 12px;
+  }
+
+  .checkbox input {
+    scale: 1;
+  }
+
+  .sendButton button {
+    background: #e50000;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 520px) {
+
+  .supportWelcome .left-side h1 {
+    font-size: 20px;
+  }
+
+  .supportWelcome .left-side p {
+    font-size: 10px;
+  }
+
+  .agreeAndConfirm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .supportWelcome .right-side {
+    padding: 20px;
+  }
+
+  .checkbox input {
+    scale: 1.2;
+  }
+
+  .checkbox p {
+    font-size: 16px;
+  }
+
+  .sendButton button {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .messageContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+}
+
+
+@media (max-width: 400px) {
+
+  .supportWelcome .left-side h1 {
+    font-size: 16px;
+  }
+
+  .supportWelcome .left-side p {
+    font-size: 8px;
+  }
+
+
+  .supportWelcome .right-side {
+    padding: 5px;
+  }
+
+  .numberInput {
+    gap: 1rem;
+  }
+} 

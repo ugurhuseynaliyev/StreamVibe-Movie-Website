@@ -7,5 +7,209 @@
   align-items: flex-end;
   justify-content: center;
   text-align: center;
-  margin-top: var(--header-height, 0);
+  margin-top: 100px;
+}
+
+.movies_shows_content {
+  margin: 5rem;
+  max-width: 65%;
+}
+
+.movies_shows_title {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.movies_shows_description {
+  font-size: 12px;
+  color: #999999;
+}
+
+.movies_shows_buttons {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.movies_shows_buttons .playNow {
+  background: #e50000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: white;
+}
+
+.movies_shows_buttons .playNow:hover {
+  opacity: 0.8;
+}
+
+.movies_shows_buttons .add,
+.like,
+.sound {
+  background: #0f0f0f;
+  border: 1px solid #262626;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.moviesSection,
+.showsSection {
+  position: relative;
+  border: 1px solid #262626;
+  padding: 30px;
+  margin: 5rem 0;
+  display: block;
+  border-radius: 10px;
+}
+
+.moviesSection::before {
+  content: "Movies";
+  position: absolute;
+  font-size: 18px;
+  top: -22px;
+  left: 28px;
+  background: red;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.ourGenres {
+  font-size: 25px;
+}
+
+.showsSection::before {
+  content: "Shows";
+  position: absolute;
+  font-size: 18px;
+  top: -22px;
+  left: 28px;
+  background: red;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 650px) {
+  .movies_shows_content {
+    max-width: 80%;
+  }
+
+  .movies_shows_title {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .movies_shows_description {
+    font-size: 10px;
+    color: #999999;
+  }
+
+  .movies_shows_buttons .playNow {
+    background: #e50000;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .movies_shows_buttons .add,
+  .like,
+  .sound {
+    background: #0f0f0f;
+    border: 1px solid #262626;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .moviesSection::before {
+    content: "Movies";
+    position: absolute;
+    font-size: 16px;
+    top: -22px;
+    left: 28px;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .moviesSection,
+  .showsSection {
+    position: relative;
+    border: 1px solid #262626;
+    padding: 20px;
+    margin: 5rem 0;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .ourGenres {
+    font-size: 25px;
+  }
+
+  .showsSection::before {
+    content: "Shows";
+    position: absolute;
+    font-size: 16px;
+    top: -22px;
+    left: 28px;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  .sectionTitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .movies_shows_content {
+    max-width: 100%;
+  }
+
+  .movies_shows_title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .movies_shows_description {
+    font-size: 8px;
+    color: #999999;
+  }
+
+  .movies_shows_buttons {
+    width: 100%;
+  } 
+
+  .movies_shows_buttons .playNow {
+    padding: 5px;
+    font-size: 8px;
+  }
 }

@@ -4,7 +4,7 @@ import ExploreSection from "../components/ExploreSection";
 import ProvideSection from "./ProvideSection";
 import FAQ from "../components/FAQ";
 import PlanSection from "./PlanSection/PlanSection";
-
+import StartFreeTrial from "./PlanSection/StartFreeTrial";
 
 const Home = () => {
   return (
@@ -28,7 +28,11 @@ const Home = () => {
       <ExploreSection />
       <ProvideSection />
       <FAQ />
-      <PlanSection/>
+      <PlanSection />
+
+      <section>
+        <StartFreeTrial />
+      </section>
     </div>
   );
 };
