@@ -1,10 +1,10 @@
 import "../styles/ProvideSection.css";
-import smartphones from "../assets/images/smartphones.png";
-import tablet from "../assets/images/tablet.png";
-import SmartTv from "../assets/images/smart_tv.png";
-import laptops from "../assets/images/laptops.png";
-import GamingConsoles from "../assets/images/gaming_consoles.png";
-import VrHeadsets from "../assets/images/vr_headsets.png";
+import smartphones from "/assets/images/smartphones.png";
+import tablet from "/assets/images/tablet.png";
+import SmartTv from "/assets/images/smart_tv.png";
+import laptops from "/assets/images/laptops.png";
+import GamingConsoles from "/assets/images/gaming_consoles.png";
+import VrHeadsets from "/assets/images/vr_headsets.png";
 
 const ProvideSection = () => {
   return (

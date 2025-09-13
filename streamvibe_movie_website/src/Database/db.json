@@ -4,49 +4,49 @@
       {
         "exploreSection": [
           {
-            "img": "../src/assets/images/actionMovie.png",
+            "img": "/assets/images/actionMovie.png",
             "type": "Action"
           },
 
           {
-            "img": "../src/assets/images/adventureMovie.png",
+            "img": "/assets/images/adventureMovie.png",
             "type": "Adventure"
           },
 
           {
-            "img": "../src/assets/images/comedyMovie.png",
+            "img": "/assets/images/comedyMovie.png",
             "type": "Comedy"
           },
 
           {
-            "img": "../src/assets/images/dramaMovie.png",
+            "img": "/assets/images/dramaMovie.png",
             "type": "Drama"
           },
 
           {
-            "img": "../src/assets/images/horrorMovie.png",
+            "img": "/assets/images/horrorMovie.png",
             "type": "Horror"
           }
         ],
 
         "popularTop10InGenres": [
           {
-            "img": "../src/assets/images/popular1.png",
+            "img": "/assets/images/popular1.png",
             "type": "Action"
           },
 
           {
-            "img": "../src/assets/images/popular2.png",
+            "img": "/assets/images/popular2.png",
             "type": "Adventure"
           },
 
           {
-            "img": "../src/assets/images/popular3.png",
+            "img": "/assets/images/popular3.png",
             "type": "Comedy"
           },
 
           {
-            "img": "../src/assets/images/popular4.png",
+            "img": "/assets/images/popular4.png",
             "type": "Drama"
           }
         ]

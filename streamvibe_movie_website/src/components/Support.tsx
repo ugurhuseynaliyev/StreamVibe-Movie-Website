@@ -1,4 +1,4 @@
-import supportImage from "../assets/images/supportImage.png";
+import supportImage from "/assets/images/supportImage.png";
 import { useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
 import "../styles/Support.css";

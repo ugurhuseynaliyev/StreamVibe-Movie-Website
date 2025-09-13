@@ -1,4 +1,4 @@
-import Logo from "../assets/images/Logo.png";
+import Logo from "/assets/images/logo.png";
 import { IoSearchOutline } from "react-icons/io5";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import "../styles/Navbar.css";
