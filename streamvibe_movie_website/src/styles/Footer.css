@@ -99,6 +99,11 @@ footer .row .icon {
 }
 
 @media (max-width: 768px) {
+
+  footer {
+    padding: 6rem;
+  }
+
   .footerTop {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -114,6 +119,11 @@ footer .row .icon {
 }
 
 @media (max-width: 450px) {
+
+  footer {
+    padding: 5rem;
+  }
+
   .footerTop {
     display: grid;
     grid-template-columns: auto auto;
