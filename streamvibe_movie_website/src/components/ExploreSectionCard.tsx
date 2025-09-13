@@ -1,6 +1,5 @@
 import "../styles/ExploreSection.css";
 import { IoIosArrowRoundForward } from "react-icons/io";
-// import "../styles/ExploreSection.css"
 
 type Props = {
   image: string;

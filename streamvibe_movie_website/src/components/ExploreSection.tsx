@@ -1,16 +1,22 @@
 import "../styles/ExploreSection.css";
 import ExploreSectionCard from "./ExploreSectionCard";
-import data from "../Database/db.json";
+// import data from "../Database/db.json";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-interface MovieCategory {
-  img: string;
-  type: string;
-}
+// interface MovieCategory {
+//   img: string;
+//   type: string;
+// }
 
 const ExploreSection = () => {
-  const exploreSectionData: MovieCategory[] = data[0].movies[0].exploreSection;
+  const exploreSectionData = [
+    { img: "../src/assets/images/actionMovie.png", type: "Action" },
+    { img: "../src/assets/images/adventureMovie.png", type: "Adventure" },
+    { img: "../src/assets/images/comedyMovie.png", type: "Comedy" },
+    { img: "../src/assets/images/dramaMovie.png", type: "Drama" },
+    { img: "../src/assets/images/horrorMovie.png", type: "Horror" },
+  ];
   return (
     <div className="exploreSection">
       <h1 className="exploreTitle">Explore our wide variety of categories</h1>

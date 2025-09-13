@@ -4,17 +4,21 @@ import { FaPlay } from "react-icons/fa";
 import "../styles/Movies_Shows.css";
 import ExploreSectionCard from "./ExploreSectionCard";
 import Carousel from "react-multi-carousel";
-import data from "../Database/db.json";
+// import data from "../Database/db.json";
 import StartFreeTrial from "./PlanSection/StartFreeTrial";
 
-interface MovieCategory {
-  img: string;
-  type: string;
-}
+// interface MovieCategory {
+//   img: string;
+//   type: string;
+// }
 
 const Movies_Shows = () => {
-  const popularTop10InGenres: MovieCategory[] =
-    data[0].movies[0].popularTop10InGenres;
+  const popularTop10InGenres = [
+    { img: "../src/assets/images/popular1.png", type: "Action" },
+    { img: "../src/assets/images/popular2.png", type: "Adventure" },
+    { img: "../src/assets/images/popular3.png", type: "Comedy" },
+    { img: "../src/assets/images/popular4.png", type: "Drama" },
+  ];
 
   return (
     <section className="movies_shows" id="movies_shows">
@@ -269,7 +273,7 @@ const Movies_Shows = () => {
         </div>
       </div>
 
-      <StartFreeTrial/>
+      <StartFreeTrial />
     </section>
   );
 };
